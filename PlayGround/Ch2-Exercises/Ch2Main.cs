@@ -1,4 +1,5 @@
-﻿using PlayGround.Classes;
+﻿using PlayGround.Ch2_Exercises;
+using PlayGround.Classes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,8 @@ namespace PlayGround
     {
         public static void GetCh2() 
         {
+            
+
             Console.WriteLine("Hello, World! What is your name?");
             string name = Console.ReadLine();
             Console.WriteLine("Hello " + name);
@@ -30,9 +33,10 @@ namespace PlayGround
             int gallonsUsed = int.Parse(gallons);
             Console.WriteLine("Alright, so you got... " + GasCalc.GetMilage(milesDriven, gallonsUsed) + "mpg");
 
-            // Finish Strings Exercises tomorrow...
+            Console.WriteLine("Awesome, next you will look at a string and enter a letter. If it is in the string, the console will print where the first instance of it is.\n\n");
+            AliceAdventure.GetStringCount();
 
-            Console.WriteLine("Good job. That is enough for tonight.");
+            Console.WriteLine("\nExcellent, let's move onto the next exercise.");
         }
     }
 }
