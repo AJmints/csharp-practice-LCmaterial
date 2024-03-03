@@ -36,7 +36,7 @@ namespace PlayGround
             Console.WriteLine("Awesome, next you will look at a string and enter a letter. If it is in the string, the console will print where the first instance of it is.\n\n");
             AliceAdventure.GetStringCount();
 
-            Console.WriteLine("\nExcellent, let's move onto the next exercise.");
+            Console.WriteLine("\nExcellent, returning to main menu.\n");
         }
     }
 }
